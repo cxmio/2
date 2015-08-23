@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Consolas, monospace;
+    font-size: 15px;
+/*    overflow: hidden;*/
+}
+
+.footer {
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid white;
+    height: 25px;
+    overflow: hidden;
+    background-color: black;
+}
+
+input {
+    border: none;
+    background-color: black;
+    height: 25px;
+    color: white;
+    font-family: Consolas, monospace;
+/*    margin-left: 3px;*/
+    width: 100%;
+    margin-right: -10px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.feed {
+    padding: 3px;
+}
